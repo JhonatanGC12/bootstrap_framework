@@ -1,0 +1,58 @@
+:root {
+    --bg-dark: #1e1f22;
+    --bg-side: #2b2d31;
+    --bg-mid: #313338;
+    --hover: #404249;
+    --text: #dbdee1;
+    --muted: #949ba4;
+    --brand: #5865F2;
+}
+
+body {
+    overflow: hidden
+}
+
+.bg-app-dark {
+    background: var(--bg-dark)
+}
+
+.bg-side {
+    background: var(--bg-side)
+}
+
+.bg-mid {
+    background: var(--bg-mid)
+}
+
+.text-muted-x {
+    color: var(--muted)
+}
+
+.server {
+    width: 48px;
+    height: 48px
+}
+
+.server:hover,
+.server.active {
+    background: var(--brand) !important;
+    border-radius: 16px
+}
+
+.channel:hover {
+    background: var(--hover)
+}
+
+.channel.active {
+    background: #404249;
+    color: #fff
+}
+
+.chat-scroll::-webkit-scrollbar {
+    width: 6px
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+    background: #111;
+    border-radius: 4px
+}
